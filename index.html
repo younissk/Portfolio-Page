@@ -5,45 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youniss | Web developer</title>
-    <style>
-      * {
-        margin: 0;
-      }
-      body {
-        height: 100vh;
-        width: 100vw;
-        position: relative;
-        text-align: center;
-        color: white;
-        background-color: black;
-        overflow: hidden;
-      }
-      .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Hi! I am a web developer.</h1>
+      <h1>Youniss Kandah</h1>
+      <h2>Web developer</h2>
+      <hr />
       <div class="link-container">
         <a href="https://study.youniss.info/" class="link" id="study"
           >Study notes</a
         >
-        <a href="https://bauindex.at/" class="link" id="study">bauindex</a>
-        <a href="https://github.com/younissk" class="link" id="study"
-          >My Github</a
+        <a href="https://bauindex.at/" class="link" id="bauindex">Bauindex</a>
+        <a href="https://github.com/younissk" class="link" id="github"
+          >Github</a
+        >
+        <a href="https://p5.youniss.info/" class="link" id="p5"
+          >P5.js sketches</a
+        >
+        <a href="https://projects.youniss.info/" class="link" id="projects"
+          >Other Projects</a
         >
       </div>
     </div>
     <iframe
-      src="https://younissk.github.io/p5-projects/Bezier/index.html"
+      id="project-preview"
+      src=""
       frameborder="0"
       height="100%"
       width="100%"
     ></iframe>
+    <script src="script.js"></script>
   </body>
 </html>

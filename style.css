@@ -12,7 +12,8 @@ body {
   background-color: black;
   overflow: hidden;
   font-family: 'Rubik', sans-serif;
-  letter-spacing: 3px
+  letter-spacing: 3px;
+  margin-top: 5px;
 }
 .container {
   position: absolute;

@@ -1,6 +1,7 @@
 const background_project = document.getElementById("project-preview");
 
 const project_links = [
+  "https://younissk.github.io/p5-projects/Self%20avoiding%20walk/index.html",
   "https://younissk.github.io/p5-projects/Bezier/index.html",
   "https://younissk.github.io/p5-projects/Maurer%20curve/index.html",
   "https://younissk.github.io/p5-projects/Mandelbrot/index.html",

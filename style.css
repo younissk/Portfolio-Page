@@ -3,6 +3,7 @@
 * {
   margin: 0;
 }
+
 body {
   margin: 0;
   height: 100vh;
@@ -15,8 +16,8 @@ body {
   font-family: "Rubik", sans-serif;
   letter-spacing: 3px;
 }
+
 .container {
-  margin-top: 5px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,14 +25,6 @@ body {
   background-color: rgba(100, 100, 100, 0.3);
   border-radius: 10px;
   padding: 20px;
-}
-
-h1 {
-  margin-top: 5px;
-}
-
-h2 {
-  margin-top: 5px;
 }
 
 .link-container {
@@ -46,6 +39,28 @@ h2 {
   border-radius: 5px;
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+}
+
+/* Seperate links */
 
 #study {
   background-color: white;
@@ -79,21 +94,5 @@ h2 {
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-  }
-  .link-container {
-    padding: 3rem;
-  }
-  .link {
-    padding: 1rem 2rem;
   }
 }
